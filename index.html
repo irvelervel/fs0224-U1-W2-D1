@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS DAY 1</title>
+    <!-- <script></script> -->
+    <!-- il tag script volendo si può anche inserire alla fine del tag head, ma oggi è SCONSIGLIATO -->
+    <!-- il contenuto del tag script spesso va ad interagire con gli elementi della pagina -->
+  </head>
+  <body>
+    <header>
+      <h1>Inseriamo del codice JS dentro un documento HTML!</h1>
+    </header>
+    <main>
+      <p>
+        Il tag che vogliamo utilizzare in HTML per incorporare del codice JS
+        viene chiamato script: &lt;script&gt;&lt;/script&gt; Questo tag
+        solitamente va inserito ALLA FINE DEL TAG BODY
+      </p>
+    </main>
+    <footer></footer>
+    <!-- qui vado ad inserire il mio tag script, se necessario -->
+    <!-- inserendolo alla fine del tag body saremo certi di poter referenziare nel JS gli elementi della pagina,
+    perchè a questo punto del documento saranno sicuramente stati già tutti caricati dal browser -->
+    <script>
+      // qui dentro si scrive SOLO JavaScript! con una sintassi che oggi cominciamo ad esplorare
+      // i commenti in JS si scrivono con un prefisso di //
+      // ma è consigliabile (come in CSS) creare un file ESTERNO con estensione .js e collegarlo al documento HTML
+      // il collegamento per un file JS si fa con un tag script (quindi sempre alla fine del body) vuoto, ma
+      // dotato di attributo "src" che punta al percorso del file esterno
+      // questo è un commento multi-linea
+      /* ciao
+       ciao
+       ciao */
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
